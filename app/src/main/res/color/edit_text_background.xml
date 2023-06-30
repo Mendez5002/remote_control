@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+       <shape android:shape = "Rectangle"/>
+
+    <solid android:color="@color/edit_text_background" tools:ignore="ResourceCycle" />
+    <corners android:radius="6dp"/>
+    <stroke android:width="2dp"
+        android:color="@color/edit_text_background "/>
+</selector>

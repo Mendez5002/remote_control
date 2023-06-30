@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class spscreenactivity : AppCompatActivity() {
+class signup : AppCompatActivity() {
      lateinit var Spscreen:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_spscreen)
+        setContentView(R.layout.signup)
 
-        Spscreen= findViewById(R.id.spscreen)
+        Spscreen= findViewById(R.id.signup)
 
-        val intent = Intent(this,spscreenactivity::class.java)
+        val intent = Intent(this,signup::class.java)
         startActivity(intent)
 
 

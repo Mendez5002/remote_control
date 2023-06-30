@@ -32,7 +32,7 @@ import android.widget.TextView
         welcome.animation=topanimation
 
         Handler().postDelayed({
-            val intent= Intent(this,spscreenactivity ::class.java)
+            val intent= Intent(this,signup ::class.java)
             startActivity(intent)
 
         }, SPLASH_SCREEN.toLong())

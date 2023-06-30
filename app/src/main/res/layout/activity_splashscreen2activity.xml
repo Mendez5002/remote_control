@@ -4,22 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgground"
+    android:background="@color/black"
     tools:context=".splashscreen2activity">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="587dp"
+        android:layout_height="734dp"
+        android:layout_marginTop="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blacklion" />
+
     <TextView
-        android:id="@+id/Welcome"
-        android:layout_width="225dp"
-        android:layout_height="169dp"
-        android:fontFamily="@font/bangers"
-        android:text="WELCOME"
-        android:textColor="#0C4E6C"
+        android:id="@+id/textView9"
+        android:layout_width="400dp"
+        android:layout_height="710dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Hello ,\nWelcome \n to \n Crypto ."
+        android:textColor="#39728C"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.132" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

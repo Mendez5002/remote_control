@@ -7,6 +7,10 @@ android {
     namespace 'com.example.remote_control'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.remote_control"
         minSdk 24
